@@ -10,7 +10,7 @@ const db = mysql.createConnection(
         password: "soph123",
         database: "employees_db",
     },
-    console.log('connected')
+    console.log('Now connected to employees_db database.')
 );
 
 function firstQuestion() {
@@ -68,7 +68,7 @@ function viewDepartments() {
             console.log(err);
             return;
         }
-        console.table(results);
+        console.table(res);
         firstQuestion();
 })
 };
@@ -80,7 +80,7 @@ function viewRoles() {
             console.log(err);
             return;
         }
-        console.table(results);
+        console.table(res);
         firstQuestion();
 })
 }
@@ -92,7 +92,7 @@ function viewEmployees() {
             console.log(err);
             return;
         }
-        console.table(results);
+        console.table(res);
         firstQuestion();
 })
 };
