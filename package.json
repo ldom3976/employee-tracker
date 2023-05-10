@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/ldom3976/employee-tracker#readme",
   "dependencies": {
+    "and": "^0.0.3",
     "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
-    "mysql2": "^3.3.0"
+    "mysql2": "^3.3.0",
+    "npm": "^9.6.6",
+    "start": "^5.1.0"
   }
 }
