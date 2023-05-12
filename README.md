@@ -39,7 +39,14 @@ https://drive.google.com/file/d/1zubxOy2sLlEjkkUFFKJPie_orsS1UoJQ/view
 
 ## Visual Representation
 
-screenshots here
+- Viewing all departments, roles, and employees in the database:
+![Alt text](assets/images/screen1.png)
+
+- Adding a department, role and employee to the database:
+![Alt text](assets/images/screen2.png)
+
+- Updating an employee and showing the reflected change in view all employees:
+![Alt text](assets/images/screen3.png)
 
 ## Links
 
